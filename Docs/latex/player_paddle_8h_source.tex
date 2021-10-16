@@ -1,0 +1,36 @@
+\hypertarget{player_paddle_8h_source}{}\doxysection{player\+Paddle.\+h}
+\label{player_paddle_8h_source}\index{OrgreTemplateV2/playerPaddle.h@{OrgreTemplateV2/playerPaddle.h}}
+\mbox{\hyperlink{player_paddle_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}Ogre.h"{}}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{keyword}{class }\mbox{\hyperlink{classplayer_paddle}{playerPaddle}}}
+\DoxyCodeLine{6 \{}
+\DoxyCodeLine{7 \textcolor{keyword}{private}:}
+\DoxyCodeLine{8     Ogre::int32 speed;}
+\DoxyCodeLine{9     Ogre::Vector3 pos;}
+\DoxyCodeLine{10     Ogre::SceneNode* node;}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12     \textcolor{keywordtype}{int} bound;}
+\DoxyCodeLine{13     \textcolor{keywordtype}{int} paddleSpeed;}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{16     \mbox{\hyperlink{classplayer_paddle_a405a1e0651fa61093f1766317f56ebee}{playerPaddle}}();}
+\DoxyCodeLine{17     \mbox{\hyperlink{classplayer_paddle_a405a1e0651fa61093f1766317f56ebee}{playerPaddle}}(Ogre::Entity* batEntity, Ogre::SceneManager* scnMgr);}
+\DoxyCodeLine{18     \mbox{\hyperlink{classplayer_paddle_ab4b4620f54c040586079723ad1346535}{\string~playerPaddle}}();}
+\DoxyCodeLine{19     }
+\DoxyCodeLine{20     Ogre::Vector3 \mbox{\hyperlink{classplayer_paddle_ac60b509b62eecd34698362b73f342f0d}{translate}};}
+\DoxyCodeLine{21     Ogre::Vector3 \mbox{\hyperlink{classplayer_paddle_a17dcd29ac7afe51732770401f5d1f420}{getPlayerPosition}}();}
+\DoxyCodeLine{22     \textcolor{keywordtype}{void} \mbox{\hyperlink{classplayer_paddle_a9f32ef13d2561ddf9675f03f21345310}{setPlayerPosition}}(Ogre::Vector3);}
+\DoxyCodeLine{23     Ogre::SceneNode* \mbox{\hyperlink{classplayer_paddle_a0cf490559bfb41ded5e830a248d8aba7}{getPlayerShape}}();}
+\DoxyCodeLine{24     Ogre::int32 \mbox{\hyperlink{classplayer_paddle_a35c3e40084b98dccfc0470696098803c}{getPlayerSpeed}}();}
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} \mbox{\hyperlink{classplayer_paddle_a71a6e3937c4737646012c56b229b80ff}{setSpeed}}(Ogre::int32 x);}
+\DoxyCodeLine{26     \textcolor{keywordtype}{void} \mbox{\hyperlink{classplayer_paddle_a497a3bf49494ea92a354dcb11b5eacba}{update}}(\textcolor{keyword}{const} Ogre::FrameEvent\& evt);}
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} \mbox{\hyperlink{classplayer_paddle_ac3b0244a01352dd816b55ce2bc4414b2}{playerMoveLeft}}();}
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} \mbox{\hyperlink{classplayer_paddle_a70069eb84850b17e648dd109a7528af3}{playerMoveRight}}();}
+\DoxyCodeLine{29     \textcolor{keywordtype}{void} \mbox{\hyperlink{classplayer_paddle_a1590c939f792a8cf95543e5735f77d2e}{reset}}();}
+\DoxyCodeLine{30 \};}
+
+\end{DoxyCode}

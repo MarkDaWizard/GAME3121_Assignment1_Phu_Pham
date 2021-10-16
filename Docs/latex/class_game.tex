@@ -1,0 +1,218 @@
+\hypertarget{class_game}{}\doxysection{Game Class Reference}
+\label{class_game}\index{Game@{Game}}
+Inheritance diagram for Game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_ad59df6562a58a614fda24622d3715b65}{Game}} ()
+\item 
+virtual \mbox{\hyperlink{class_game_a72772b628443c3675976d6b5e6c9ec2a}{$\sim$\+Game}} ()
+\item 
+void \mbox{\hyperlink{class_game_ae4618ba40eabbbe65e35f1bb239aa29b}{setup}} ()
+\item 
+bool \mbox{\hyperlink{class_game_a2ba00c3475d222573e5ad54b88b389b7}{key\+Pressed}} (const Keyboard\+Event \&evt)
+\item 
+bool \mbox{\hyperlink{class_game_af4a6a232da68068e26aa9e6ab802ebf1}{frame\+Rendering\+Queued}} (const Frame\+Event \&evt)
+\item 
+void \mbox{\hyperlink{class_game_acc39660fc2452fc78ca45330d6032e5c}{create\+Scene}} ()
+\item 
+void \mbox{\hyperlink{class_game_a73744fbffd68a0ebadfedcecbfff3236}{create\+Camera}} ()
+\item 
+void \mbox{\hyperlink{class_game_af5b56d4ec80bba41a21763b66603c0da}{create\+Frame\+Listener}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ogre\+Bites\+::\+Tray\+Listener \mbox{\hyperlink{class_game_af34a45d1eceabfba4403b64d45876348}{my\+Tray\+Listener}}
+\item 
+Ogre\+Bites\+::\+Label $\ast$ \mbox{\hyperlink{class_game_a072635e63d48082440d02b27010372fd}{m\+Info\+Label}}
+\item 
+Ogre\+Bites\+::\+Label $\ast$ \mbox{\hyperlink{class_game_a0b460b842609d48e4f22212081650112}{m\+Score\+Label}}
+\item 
+Ogre\+Bites\+::\+Label $\ast$ \mbox{\hyperlink{class_game_a13c9913114e1c69ce99539fed27af8f6}{m\+Score}}
+\item 
+Ogre\+Bites\+::\+Label $\ast$ \mbox{\hyperlink{class_game_a4462f931a8377f644541cffbf642fccd}{m\+Lives\+Label}}
+\item 
+Ogre\+Bites\+::\+Label $\ast$ \mbox{\hyperlink{class_game_aeed5f2b9b065cf496141fe8060f26b92}{m\+Player\+Lives}}
+\item 
+Ogre\+Bites\+::\+Label $\ast$ \mbox{\hyperlink{class_game_a4e00d98b0e18760118a5d5a253403565}{m\+FPS}}
+\item 
+Ogre\+Bites\+::\+Label $\ast$ \mbox{\hyperlink{class_game_a89daa496b268bae106dc97067bace2da}{m\+TPU}}
+\item 
+Ogre\+Bites\+::\+Button $\ast$ \mbox{\hyperlink{class_game_a4f6ba3a86479b591a775f0bc3dbdd582}{m\+Quit\+Button}} = nullptr
+\item 
+Ogre\+Bites\+::\+Label $\ast$ \mbox{\hyperlink{class_game_affa2ac152bdd78e17ba45a2e164985cb}{m\+Game\+Over\+Label}}
+\item 
+Ogre\+::\+Display\+String \mbox{\hyperlink{class_game_a510a09520a741a325ffec1625148ec59}{sc}}
+\item 
+Ogre\+::\+Display\+String \mbox{\hyperlink{class_game_ab9e923d5e52e9f5ca9e09a6b05c8e32e}{l}}
+\item 
+\mbox{\hyperlink{class_ball}{Ball}} $\ast$ \mbox{\hyperlink{class_game_a604714f2185896da333d07cb0606eecb}{m\+Ball}}
+\item 
+\mbox{\hyperlink{classplayer_paddle}{player\+Paddle}} $\ast$ \mbox{\hyperlink{class_game_aa258d25b370d3d8a4b9abcdf9c5e1528}{m\+Player\+Paddle}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_game_ad59df6562a58a614fda24622d3715b65}\label{class_game_ad59df6562a58a614fda24622d3715b65}} 
+\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily Game\+::\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_game_a72772b628443c3675976d6b5e6c9ec2a}\label{class_game_a72772b628443c3675976d6b5e6c9ec2a}} 
+\index{Game@{Game}!````~Game@{$\sim$Game}}
+\index{````~Game@{$\sim$Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{$\sim$Game()}{~Game()}}
+{\footnotesize\ttfamily virtual Game\+::$\sim$\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_a73744fbffd68a0ebadfedcecbfff3236}\label{class_game_a73744fbffd68a0ebadfedcecbfff3236}} 
+\index{Game@{Game}!createCamera@{createCamera}}
+\index{createCamera@{createCamera}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{createCamera()}{createCamera()}}
+{\footnotesize\ttfamily void Game\+::create\+Camera (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{[}camera\mbox{]}
+
+\mbox{[}camera\mbox{]}
+
+\mbox{[}cameramove\mbox{]}\mbox{\Hypertarget{class_game_af5b56d4ec80bba41a21763b66603c0da}\label{class_game_af5b56d4ec80bba41a21763b66603c0da}} 
+\index{Game@{Game}!createFrameListener@{createFrameListener}}
+\index{createFrameListener@{createFrameListener}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{createFrameListener()}{createFrameListener()}}
+{\footnotesize\ttfamily void Game\+::create\+Frame\+Listener (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_game_acc39660fc2452fc78ca45330d6032e5c}\label{class_game_acc39660fc2452fc78ca45330d6032e5c}} 
+\index{Game@{Game}!createScene@{createScene}}
+\index{createScene@{createScene}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{createScene()}{createScene()}}
+{\footnotesize\ttfamily void Game\+::create\+Scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{[}turnlights\mbox{]}
+
+\mbox{[}turnlights\mbox{]}
+
+\mbox{[}newlight\mbox{]}
+
+\mbox{[}newlight\mbox{]}
+
+\mbox{[}lightpos\mbox{]}
+
+\mbox{[}lightpos\mbox{]}\mbox{\Hypertarget{class_game_af4a6a232da68068e26aa9e6ab802ebf1}\label{class_game_af4a6a232da68068e26aa9e6ab802ebf1}} 
+\index{Game@{Game}!frameRenderingQueued@{frameRenderingQueued}}
+\index{frameRenderingQueued@{frameRenderingQueued}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{frameRenderingQueued()}{frameRenderingQueued()}}
+{\footnotesize\ttfamily bool Game\+::frame\+Rendering\+Queued (\begin{DoxyParamCaption}\item[{const Frame\+Event \&}]{evt }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_game_a2ba00c3475d222573e5ad54b88b389b7}\label{class_game_a2ba00c3475d222573e5ad54b88b389b7}} 
+\index{Game@{Game}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily bool Game\+::key\+Pressed (\begin{DoxyParamCaption}\item[{const Keyboard\+Event \&}]{evt }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_game_ae4618ba40eabbbe65e35f1bb239aa29b}\label{class_game_ae4618ba40eabbbe65e35f1bb239aa29b}} 
+\index{Game@{Game}!setup@{setup}}
+\index{setup@{setup}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily void Game\+::setup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_game_ab9e923d5e52e9f5ca9e09a6b05c8e32e}\label{class_game_ab9e923d5e52e9f5ca9e09a6b05c8e32e}} 
+\index{Game@{Game}!l@{l}}
+\index{l@{l}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{l}{l}}
+{\footnotesize\ttfamily Ogre\+::\+Display\+String Game\+::l}
+
+\mbox{\Hypertarget{class_game_a604714f2185896da333d07cb0606eecb}\label{class_game_a604714f2185896da333d07cb0606eecb}} 
+\index{Game@{Game}!mBall@{mBall}}
+\index{mBall@{mBall}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mBall}{mBall}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_ball}{Ball}}$\ast$ Game\+::m\+Ball}
+
+\mbox{\Hypertarget{class_game_a4e00d98b0e18760118a5d5a253403565}\label{class_game_a4e00d98b0e18760118a5d5a253403565}} 
+\index{Game@{Game}!mFPS@{mFPS}}
+\index{mFPS@{mFPS}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mFPS}{mFPS}}
+{\footnotesize\ttfamily Ogre\+Bites\+::\+Label$\ast$ Game\+::m\+FPS}
+
+\mbox{\Hypertarget{class_game_affa2ac152bdd78e17ba45a2e164985cb}\label{class_game_affa2ac152bdd78e17ba45a2e164985cb}} 
+\index{Game@{Game}!mGameOverLabel@{mGameOverLabel}}
+\index{mGameOverLabel@{mGameOverLabel}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mGameOverLabel}{mGameOverLabel}}
+{\footnotesize\ttfamily Ogre\+Bites\+::\+Label$\ast$ Game\+::m\+Game\+Over\+Label}
+
+\mbox{\Hypertarget{class_game_a072635e63d48082440d02b27010372fd}\label{class_game_a072635e63d48082440d02b27010372fd}} 
+\index{Game@{Game}!mInfoLabel@{mInfoLabel}}
+\index{mInfoLabel@{mInfoLabel}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mInfoLabel}{mInfoLabel}}
+{\footnotesize\ttfamily Ogre\+Bites\+::\+Label$\ast$ Game\+::m\+Info\+Label}
+
+\mbox{\Hypertarget{class_game_a4462f931a8377f644541cffbf642fccd}\label{class_game_a4462f931a8377f644541cffbf642fccd}} 
+\index{Game@{Game}!mLivesLabel@{mLivesLabel}}
+\index{mLivesLabel@{mLivesLabel}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mLivesLabel}{mLivesLabel}}
+{\footnotesize\ttfamily Ogre\+Bites\+::\+Label$\ast$ Game\+::m\+Lives\+Label}
+
+\mbox{\Hypertarget{class_game_aeed5f2b9b065cf496141fe8060f26b92}\label{class_game_aeed5f2b9b065cf496141fe8060f26b92}} 
+\index{Game@{Game}!mPlayerLives@{mPlayerLives}}
+\index{mPlayerLives@{mPlayerLives}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mPlayerLives}{mPlayerLives}}
+{\footnotesize\ttfamily Ogre\+Bites\+::\+Label$\ast$ Game\+::m\+Player\+Lives}
+
+\mbox{\Hypertarget{class_game_aa258d25b370d3d8a4b9abcdf9c5e1528}\label{class_game_aa258d25b370d3d8a4b9abcdf9c5e1528}} 
+\index{Game@{Game}!mPlayerPaddle@{mPlayerPaddle}}
+\index{mPlayerPaddle@{mPlayerPaddle}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mPlayerPaddle}{mPlayerPaddle}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classplayer_paddle}{player\+Paddle}}$\ast$ Game\+::m\+Player\+Paddle}
+
+\mbox{\Hypertarget{class_game_a4f6ba3a86479b591a775f0bc3dbdd582}\label{class_game_a4f6ba3a86479b591a775f0bc3dbdd582}} 
+\index{Game@{Game}!mQuitButton@{mQuitButton}}
+\index{mQuitButton@{mQuitButton}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mQuitButton}{mQuitButton}}
+{\footnotesize\ttfamily Ogre\+Bites\+::\+Button$\ast$ Game\+::m\+Quit\+Button = nullptr}
+
+\mbox{\Hypertarget{class_game_a13c9913114e1c69ce99539fed27af8f6}\label{class_game_a13c9913114e1c69ce99539fed27af8f6}} 
+\index{Game@{Game}!mScore@{mScore}}
+\index{mScore@{mScore}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mScore}{mScore}}
+{\footnotesize\ttfamily Ogre\+Bites\+::\+Label$\ast$ Game\+::m\+Score}
+
+\mbox{\Hypertarget{class_game_a0b460b842609d48e4f22212081650112}\label{class_game_a0b460b842609d48e4f22212081650112}} 
+\index{Game@{Game}!mScoreLabel@{mScoreLabel}}
+\index{mScoreLabel@{mScoreLabel}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mScoreLabel}{mScoreLabel}}
+{\footnotesize\ttfamily Ogre\+Bites\+::\+Label$\ast$ Game\+::m\+Score\+Label}
+
+\mbox{\Hypertarget{class_game_a89daa496b268bae106dc97067bace2da}\label{class_game_a89daa496b268bae106dc97067bace2da}} 
+\index{Game@{Game}!mTPU@{mTPU}}
+\index{mTPU@{mTPU}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{mTPU}{mTPU}}
+{\footnotesize\ttfamily Ogre\+Bites\+::\+Label$\ast$ Game\+::m\+TPU}
+
+\mbox{\Hypertarget{class_game_af34a45d1eceabfba4403b64d45876348}\label{class_game_af34a45d1eceabfba4403b64d45876348}} 
+\index{Game@{Game}!myTrayListener@{myTrayListener}}
+\index{myTrayListener@{myTrayListener}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{myTrayListener}{myTrayListener}}
+{\footnotesize\ttfamily Ogre\+Bites\+::\+Tray\+Listener Game\+::my\+Tray\+Listener}
+
+\mbox{\Hypertarget{class_game_a510a09520a741a325ffec1625148ec59}\label{class_game_a510a09520a741a325ffec1625148ec59}} 
+\index{Game@{Game}!sc@{sc}}
+\index{sc@{sc}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{sc}{sc}}
+{\footnotesize\ttfamily Ogre\+::\+Display\+String Game\+::sc}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Orgre\+Template\+V2/\mbox{\hyperlink{_g_a_m_e3121___assignment1___phu___pham_8cpp}{GAME3121\+\_\+\+Assignment1\+\_\+\+Phu\+\_\+\+Pham.\+cpp}}\end{DoxyCompactItemize}

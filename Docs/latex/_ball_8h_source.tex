@@ -1,0 +1,35 @@
+\hypertarget{_ball_8h_source}{}\doxysection{Ball.\+h}
+\label{_ball_8h_source}\index{OrgreTemplateV2/Ball.h@{OrgreTemplateV2/Ball.h}}
+\mbox{\hyperlink{_ball_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}Ogre.h"{}}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{keyword}{class }\mbox{\hyperlink{class_ball}{Ball}}}
+\DoxyCodeLine{6 \{}
+\DoxyCodeLine{7 \textcolor{keyword}{private}:}
+\DoxyCodeLine{8     Ogre::int32 velY;}
+\DoxyCodeLine{9     Ogre::int32 velX;}
+\DoxyCodeLine{10     Ogre::Vector3 pos;}
+\DoxyCodeLine{11     Ogre::SceneNode* node;}
+\DoxyCodeLine{12     \textcolor{keywordtype}{int} ballSpeed;}
+\DoxyCodeLine{13     \textcolor{keywordtype}{int} bound;}
+\DoxyCodeLine{14     \textcolor{keywordtype}{int} angle;}
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{16     \mbox{\hyperlink{class_ball_a86a144d3dad6c953e422e32435923bbb}{Ball}}();}
+\DoxyCodeLine{17     \mbox{\hyperlink{class_ball_a86a144d3dad6c953e422e32435923bbb}{Ball}}(Ogre::Entity* ballEntity, Ogre::SceneManager* scnMgr);}
+\DoxyCodeLine{18     \mbox{\hyperlink{class_ball_a20f2f6ac0bf648f406a8e12e63429fcd}{\string~Ball}}();}
+\DoxyCodeLine{19     Ogre::Vector3 \mbox{\hyperlink{class_ball_a890fc2366a62a7edc99d2697a3abd965}{btranslate}};}
+\DoxyCodeLine{20     Ogre::Vector3 \mbox{\hyperlink{class_ball_a615bfe7efa7759dafe285ee03faf8c09}{getPosition}}();}
+\DoxyCodeLine{21     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_a316dd7bc434ad0d3ca78188375e839f3}{setPosition}}(Ogre::Vector3);}
+\DoxyCodeLine{22     Ogre::SceneNode* \mbox{\hyperlink{class_ball_ae4fda7a5318aae2d1805e8db1574cc6f}{getShape}}();}
+\DoxyCodeLine{23     Ogre::int32 \mbox{\hyperlink{class_ball_aeea7b733e1bd075baf2ef1296e7fba37}{getVelX}}();}
+\DoxyCodeLine{24     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_a6377e70f15fe8d58c43c0f9ce9db9eaa}{setVelX}}(Ogre::int32 x);}
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_a9053d610357617a38f7a3e52831f864a}{setVelY}}(Ogre::int32 y);}
+\DoxyCodeLine{26     Ogre::int32 \mbox{\hyperlink{class_ball_a96db3809826a127835bf8f9dda61e5e7}{getVelY}}();}
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_a50f003b19f425d46bb3aae5c2e2346df}{update}}(\textcolor{keyword}{const} Ogre::FrameEvent\& evt);}
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_ad51eef8304541159f12dee1f1674ec90}{reset}}();}
+\DoxyCodeLine{29 \};}
+
+\end{DoxyCode}
